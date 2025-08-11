@@ -8,9 +8,10 @@ RN02 - Cliente deve pagar
 Descrição: Cliente não pode sair sem pagar
 RN relacionadas:
 
-RN03 -
-Descrição: 
-RN relacionadas:
+RN03 - Cadastro do cozinheiro
+Descrição: O cozinheiro deve estar cadastrado para adicionar os pratos
+RF relacionadas:
+RNF relacionadas: RNF03
 
 - Requisitos Funcionais
 
