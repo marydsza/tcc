@@ -1,7 +1,7 @@
 - Regras de Negócios
 
-RN01 - 
-Descrição: 
+RN01 - Cadastro do garçom
+Descrição: O garçom deve estar cadastrado para abrir mesa
 RN relacionadas:
 
 RN02 - Cliente deve pagar
@@ -12,6 +12,10 @@ RN03 - Cadastro do cozinheiro
 Descrição: O cozinheiro deve estar cadastrado para adicionar os pratos
 RF relacionadas:
 RNF relacionadas: RNF03
+
+RN04 - Funcionários alteram informações
+Descrição: Apenas funcionários podem alterar informações do site
+RN relacionadas:
 
 - Requisitos Funcionais
 
@@ -47,8 +51,8 @@ RNF relacionadas:
 
 - Requisitos Não Funcionais
 
-RNF01 -
-Descrição: 
+RNF01 - O site/app funciona em qualquer aparelho
+Descrição: O site/app funciona em computadores, tablets e celulares
 RN relacionadas:
 RF relacionadas:
 RNF relacionadas:
@@ -59,9 +63,9 @@ RN relacionadas:
 RF relacionadas:
 RNF relacionadas:
 
-RNF03 -
-Descrição: 
-RN relacionadas:
+RNF03 - Adicionar novas funções
+Descrição: Ao adicionar novas funções ao site, as já existentes não devem ser alteradas
+RN relacionadas: RN04
 RF relacionadas:
 RNF relacionadas:
 
@@ -71,10 +75,10 @@ RN relacionadas:
 RF relacionadas:
 RNF relacionadas:
 
-RNF05 -
-Descrição: 
-RN relacionadas:
-RF relacionadas:
+RNF05 - Backup automático
+Descrição: O sistema deve fazer backup automático dos dados
+RN relacionadas: 
+RF relacionadas: RF03
 RNF relacionadas:
 
 RNF06 - Forma de pagamento
