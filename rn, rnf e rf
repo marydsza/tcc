@@ -27,18 +27,25 @@ Descrição: O funcionario deve estar cadastrado para registrar novos produtos
 RF relacionadas: nenhuma
 RNF relacionadas: nenhuma
 
-
-
-
-
-
-
+RN07 - Cozinha deve possuir os ingredientes
+Descrição: A cozinha deve ser capaz de preparar o pedido do cliente
+RF relacionadas:
+RNF relacionadas:
 
 RN08 - Cliente deve pedir algo dentro do cardápio
 Descrição: Não é possível realizar pedidos que não existam no cadastro de produtos
 RF relacionadas: RF01, RF04 e RF06
 RNF relacionadas: nenhuma
 
+ RN09 - Descrição do Produto
+Descrição: O produto deve fazer parte de uma categoria, e deve conter nome, descrição, preço e imagem
+RF relacionadas:
+RNF relacionadas:
+
+ RN10 - Descrição da Categoria
+Descrição: A categoria deve ter nome
+RF relacionadas:
+RNF relacionadas: 
 
 - Requisitos Funcionais
 
@@ -48,9 +55,9 @@ RN relacionadas: RN08
 RF relacionadas:
 RNF relacionadas:
 
-RF02 -
-Descrição: 
-RN relacionadas:RN07
+RF02 - Preparar o pedido
+Descrição: A cozinha deve ser capaz de preparar o pedido do cliente
+RN relacionadas:
 RF relacionadas:
 RNF relacionadas:
 
@@ -60,9 +67,9 @@ RN relacionadas:RN01
 RF relacionadas:
 RNF relacionadas:
 
-RF04 -
-Descrição: 
-RN relacionadas:RN08
+RF04 - Adicionar pedido
+Descrição: O garçom deve poder adicionar o pedido do cliente
+RN relacionadas:
 RF relacionadas:
 RNF relacionadas:
 
@@ -74,9 +81,9 @@ RNF relacionadas:
 
 RF06 - Acesso da cozinha à mesa
 Descrição: A cozinha deve ter acesso a mesa, e logo, acesso ao pedido
-RN relacionadas: RN08
+RN relacionadas: 
 RF relacionadas: 
-RNF relacionadas:
+RNF relacionadas:RN08
 
 - Requisitos Não Funcionais
 
@@ -107,7 +114,7 @@ RNF relacionadas:
 RNF05 - Backup automático
 Descrição: O sistema deve fazer backup automático dos dados
 RN relacionadas: 
-RF relacionadas: RF03
+RF relacionadas: RF03 
 RNF relacionadas:
 
 RNF06 - Forma de pagamento
