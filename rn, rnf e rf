@@ -5,7 +5,7 @@ Descrição: O garçom deve estar cadastrado para abrir mesa
 RN relacionadas:
 
 RN02 - Cliente deve pagar
-Descrição: Cliente não pode sair sem pagar
+Descrição: O cliente deve efetuar o pagamento antes de sair do estabelecimento
 RN relacionadas:
 
 RN03 - Cadastro do cozinheiro
@@ -57,7 +57,7 @@ RNF relacionadas:
 
 RF02 - Preparar o pedido
 Descrição: A cozinha deve ser capaz de preparar o pedido do cliente
-RN relacionadas:
+RN relacionadas:RN07
 RF relacionadas:
 RNF relacionadas:
 
@@ -69,7 +69,7 @@ RNF relacionadas:
 
 RF04 - Adicionar pedido
 Descrição: O garçom deve poder adicionar o pedido do cliente
-RN relacionadas:
+RN relacionadas:RN08
 RF relacionadas:
 RNF relacionadas:
 
@@ -93,8 +93,8 @@ RN relacionadas:
 RF relacionadas:
 RNF relacionadas:
 
-RNF02 -
-Descrição: 
+RNF02 - Mensagens de erro devem ser claras
+Descrição:  As mensagens de erro devem ser de fácil entendimento. 
 RN relacionadas:
 RF relacionadas:
 RNF relacionadas:
