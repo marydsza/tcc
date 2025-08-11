@@ -4,8 +4,8 @@ RN01 -
 Descrição: 
 RN relacionadas:
 
-RN02 -
-Descrição: 
+RN02 - Cliente deve pagar
+Descrição: Cliente não pode sair sem pagar
 RN relacionadas:
 
 RN03 -
@@ -22,13 +22,19 @@ RNF relacionadas:
 
 RF02 -
 Descrição: 
-RN relacionadas:
+RN relacionadas:RN07
 RF relacionadas:
 RNF relacionadas:
 
-RF03 -
+RF03 -Abrir mesa
+Descrição: O garçom deve anotar o pedido
+RN relacionadas:RN01
+RF relacionadas:
+RNF relacionadas:
+
+RF04 -
 Descrição: 
-RN relacionadas:
+RN relacionadas:RN08
 RF relacionadas:
 RNF relacionadas:
 
