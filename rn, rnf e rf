@@ -14,9 +14,9 @@ RN relacionadas:
 
 - Requisitos Funcionais
 
-RF01 -
-Descrição: 
-RN relacionadas:
+RF01 - Pedido do Cliente
+Descrição: O cliente deve poder fazer um pedido
+RN relacionadas: RN08
 RF relacionadas:
 RNF relacionadas:
 
@@ -38,6 +38,12 @@ RN relacionadas:RN08
 RF relacionadas:
 RNF relacionadas:
 
+RF05 - Pagamento do Cliente
+Descrição: O cliente deve poder pagar o pedido dele
+RN relacionadas: RN02
+RF relacionadas:
+RNF relacionadas:
+
 - Requisitos Não Funcionais
 
 RNF01 -
@@ -54,6 +60,24 @@ RNF relacionadas:
 
 RNF03 -
 Descrição: 
+RN relacionadas:
+RF relacionadas:
+RNF relacionadas:
+
+RNF04 - O sistema roda em qualquer navegador
+Descrição: O site/app precisa funcionar em qualquer navegador
+RN relacionadas:
+RF relacionadas:
+RNF relacionadas:
+
+RNF05 -
+Descrição: 
+RN relacionadas:
+RF relacionadas:
+RNF relacionadas:
+
+RNF06 - Forma de pagamento
+Descrição: O sistema deve aceitar cartão, pix, dinheiro
 RN relacionadas:
 RF relacionadas:
 RNF relacionadas:
