@@ -1,7 +1,7 @@
 - Regras de Negócios
 
-RN01 - 
-Descrição: 
+RN01 - Cadastro do garçom
+Descrição: O garçom deve estar cadastrado para abrir mesa
 RN relacionadas:
 
 RN02 - Cliente deve pagar
@@ -12,6 +12,33 @@ RN03 - Cadastro do cozinheiro
 Descrição: O cozinheiro deve estar cadastrado para adicionar os pratos
 RF relacionadas:
 RNF relacionadas: RNF03
+
+RN04 - Funcionários alteram informações
+Descrição: Apenas funcionários podem alterar informações do site
+RN relacionadas:
+
+RN05 - Cadastro de Categorias
+Descrição: O funcionario deve estar cadastrado para registrar novas categorias
+RF relacionadas: nenhuma
+RNF relacionadas: nenhuma
+
+RN06 - Cadastro de Produto 
+Descrição: O funcionario deve estar cadastrado para registrar novos produtos
+RF relacionadas: nenhuma
+RNF relacionadas: nenhuma
+
+
+
+
+
+
+
+
+RN08 - Cliente deve pedir algo dentro do cardápio
+Descrição: Não é possível realizar pedidos que não existam no cadastro de produtos
+RF relacionadas: RF01, RF04 e RF06
+RNF relacionadas: nenhuma
+
 
 - Requisitos Funcionais
 
@@ -40,15 +67,21 @@ RF relacionadas:
 RNF relacionadas:
 
 RF05 - Pagamento do Cliente
-Descrição: O cliente deve poder pagar o pedido dele
+Descrição: O cliente deve ter a possibilidade de  pagar o pedido dele
 RN relacionadas: RN02
 RF relacionadas:
 RNF relacionadas:
 
+RF06 - Acesso da cozinha à mesa
+Descrição: A cozinha deve ter acesso a mesa, e logo, acesso ao pedido
+RN relacionadas: RN08
+RF relacionadas: 
+RNF relacionadas:
+
 - Requisitos Não Funcionais
 
-RNF01 -
-Descrição: 
+RNF01 - O site/app funciona em qualquer aparelho
+Descrição: O site/app funciona em computadores, tablets e celulares
 RN relacionadas:
 RF relacionadas:
 RNF relacionadas:
@@ -59,9 +92,9 @@ RN relacionadas:
 RF relacionadas:
 RNF relacionadas:
 
-RNF03 -
-Descrição: 
-RN relacionadas:
+RNF03 - Adicionar novas funções
+Descrição: Ao adicionar novas funções ao site, as já existentes não devem ser alteradas
+RN relacionadas: RN04
 RF relacionadas:
 RNF relacionadas:
 
@@ -71,10 +104,10 @@ RN relacionadas:
 RF relacionadas:
 RNF relacionadas:
 
-RNF05 -
-Descrição: 
-RN relacionadas:
-RF relacionadas:
+RNF05 - Backup automático
+Descrição: O sistema deve fazer backup automático dos dados
+RN relacionadas: 
+RF relacionadas: RF03
 RNF relacionadas:
 
 RNF06 - Forma de pagamento
